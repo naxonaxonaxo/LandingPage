@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"/>
+    <!-- css -->
+    <link href="style.css" rel="stylesheet" />
+    <!-- Google font -->
+    <link href="https://fonts.cdnfonts.com/css/napoleon" rel="stylesheet">
+    <!--favicon -->
+    <link
+      rel="icon"
+      href="img/Fondo de “meme_pc” eliminado.png"
+      type="image/x-icon"/>
+    <!-- titulo -->
+    <title>Proyecto Landing</title>
+  </head>
+  <body>
+
+
+
+    <!-- Sección Cabecera -->
+    <section class="hero">
+      <div class="row">
+        <div class="col-1 ps-5 pt-3 cine me-1">
+          <a class="navbar-brand" href="#">
+            <img src="img/LogoAzul2.jpg" width="70" alt="logo empresa" />
+          </a>
+        </div>
+        <div class="col-2 display-4 pt-5 cine col-sm-2 d-flex justify-content-xl-star ms-0 justify-content-end cineTablet"><h1><p>Cinecittia Multicines</p></h1></div>
+        <div class="col-9 azul justify-content-end d-flex pt-5  cine col-sm-8 justify-content-xl-end"><h5><p>Presenta: La Sociedad de la Nieve</p></h5></div>
+      </div>
+</section>
+
+
+
+<!-- Sección Hero  Carousel fotos-->
+    <section class="hero">
+      <div id="carouselExampleAutoplaying" class="carousel slide"
+        data-bs-ride="carousel">
+
+<div class="filtro-degradado">
+
+
+        <div class="carousel-inner">
+          <div class="carousel-item active carousel-item1">
+            <img
+              src="img/sociedadnieve.jpeg"
+              class="d-block w-100 img-fluid"
+              alt="..."/>
+          </div>
+          <div class="carousel-item carousel-item1">
+            <img
+              src="img/sociedad-nieve-7.jpeg"
+              class="d-block w-100 img-fluid"
+              alt="..."/>
+          </div>
+          <div class="carousel-item carousel-item1">
+            <img
+              src="img/paraTrailer.png"
+              class="d-block w-100 img-fluid"
+              alt="..."/>
+          </div>
+
+          <div class="carousel-item carousel-item1">
+            <img
+              src="img/foto_1.png"
+              class="d-block w-100 img-fluid"
+              alt="..."/>
+          </div>
+
+          <div class="carousel-item carousel-item1">
+            <img
+              src="img/imagen5.png"
+              class="d-block w-100 img-fluid"
+              alt="..."/>
+          </div>
+
+          <div class="carousel-item carousel-item1">
+            <img
+              src="img/3.png"
+              class="d-block w-100 img-fluid"
+              alt="..."/>
+          </div>
+
+          <div class="carousel-item carousel-item1">
+            <img
+              src="img/foto_4.png"
+              class="d-block w-100 img-fluid"
+              alt="..."/>
+          </div>
+
+          <div class="carousel-item carousel-item1">
+            <img
+              src="img/6.png"
+              class="d-block w-100 img-fluid"
+              alt="..."/>
+          </div>
+
+          <div class="carousel-item carousel-item1">
+            <img
+              src="img/8.png"
+              class="d-block w-100 img-fluid"
+              alt="..."/>
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+</div>
+      </div>
+  </section>
+
+
+<!--NEWSLETTER FORMULARIO-->
+    <section class="hero">
+      <div class="formulario pt-4 pb-3">
+        
+
+             <div class="row">
+                        <div class=" col-xl-7 pt-2 col-md-6">
+                          <p class="ms-5 mb-0">Suscríbete a nuestro boletín de noticias.</p> 
+                        </div>
+
+                      <div class="col-xl-4 col-md-4 pb-2">
+                                <form>
+                                  <div class="mb-0 ms-3 me-0">
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo electrónico">
+                                  </div>
+                                </form>
+                      </div>
+
+                      <div class="col-xl-1 col-md-2 justify-content-end d-flex pe-4">
+                        <button type="" class="btn">Suscribirse</button>
+                      </div>
+              </div> 
+      </div>
+    </section>
+
+
+<!--CAROUSEL DE VIDEOS INTERNET-->
+<section class="hero-secundario pt-5 pb-5">
+  <div class="container2">
+    <div class="container-fluid"> 
+      <div class="row d-flex">
+        <div class="col-12 col-sm-12 youtube">
+          <div id="videoCarousel" class="carousel">
+            <div class="carousel-inner">
+
+                <!-- Video 1 -->
+                <div class="carousel-item active">
+                    <video controls width="100%" height="auto">
+                        <source src="/img/trailer.mp4" type="video/mp4">
+                        Tu navegador no soporta el elemento de video.
+                    </video>
+                </div>
+                <p class="text-end position-absolute top-0 end-0 m-3 azul">
+                  Una historia escalofriante
+                </p>
+
+                <!-- Video 2 -->
+                <div class="carousel-item">
+                    <video controls width="100%" height="auto">
+                        <source src="/img/Detras_de_camaras_avalancha.mp4" type="video/mp4">
+                        Tu navegador no soporta el elemento de video.
+                    </video>
+                    <p class="text-end position-absolute top-0 end-0 m-3 azul">
+                      Detrás de Cámara Avalancha
+                    </p>
+                </div>
+                
+                <!-- Video 3 -->
+                <div class="carousel-item">
+                  <video controls width="100%" height="auto">
+                      <source src="/img/Los_efectos_especiales.mp4" type="video/mp4">
+                      Tu navegador no soporta el elemento de video.
+                  </video>
+                  <p class="text-end position-absolute top-0 end-0 m-3 azul">
+                    Los Efectos Especiales
+                  </p>
+              </div>
+            </div>
+
+            <!-- Controles de navegación -->
+            <button class="carousel-control-prev altura-flecha" type="button" data-bs-target="#videoCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next altura-flecha" type="button" data-bs-target="#videoCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!--SIPNOSIS-->
+<section class="hero-secundario">
+  <div class="container-sipnosis">
+  <div class="row">
+    <div class="col">
+      <h3 class="h3">Sipnosis</h3>
+      <div class="p">La película "La Sociedad de la Nieve," dirigida y escrita por J. A. Bayona en 2023, se presenta como un emotivo drama basado en hechos reales, inspirado en el libro homónimo de Pablo Vierci y el documental de Gonzalo Arijón. La trama se centra en el accidente del vuelo 571 de la Fuerza Aérea Uruguaya en la cordillera de los Andes en 1972. La película, protagonizada por Enzo Vogrincic en el papel de Numa Turcatti, fue estrenada en Uruguay el 13 de diciembre de 2023, seguido de su lanzamiento en salas de cine españolas dos días después. Además, tuvo su estreno mundial en la plataforma Netflix el 4 de enero de 2024 y fue la selección de España para representarla en los Premios Óscar 2024 en la categoría de Mejor Película Internacional.
+        <hr>
+        "La Sociedad de la Nieve" narra la desgarradora historia del accidente aéreo en los Andes, donde los supervivientes, principalmente jugadores del equipo de rugby del Old Christians Club de Montevideo, se ven forzados a depender unos de otros para sobrevivir en el remoto corazón de la cordillera.
+
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+
+<!--TARJETA ACTORES -->
+
+<section class="hero-secundario pt-5">
+  <div class="container">
+    <div class="row">
+    
+      <h2 class="blanco">Actores</h2>
+      <div class="col justify-content-center d-flex mt-3 mb-0">
+        <div class="card">
+          <img src="img/tarjeta1.jpg" class="card-img-top" alt="enzo_vogrincic">
+          <div class="card-body">
+            <p class="card-text justify-content-center d-flex">Matias Recalt.</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col  justify-content-center d-flex mt-3">
+        <div class="card">
+          <img src="img/tarjeta2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text justify-content-center d-flex">Jeronimo Bosia.</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col  justify-content-center d-flex mt-3">
+        <div class="card">
+          <img src="img/tarjeta3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text justify-content-center d-flex">Fernando Contagiani.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col  justify-content-center d-flex mt-3">
+        <div class="card">
+          <img src="img/tarjeta0.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text justify-content-center d-flex">Enzo Vogrincic.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--ACORDEON SOBRE LA PELÍCULA-->   
+      
+<div class="section hero-secundario ">
+  <div class="acordeon">
+    <div class="row">
+      <div class="col col-sm-12">
+
+        <div class="accordion accordion-flush pt-5" id="accordionFlushExample">
+          
+          <div class="accordion-item">
+            <h2 class="accordion-header fondo-negro">
+              <button class="accordion-button collapsed rounded" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                <strong>Reparto y Personajes.</strong>
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">A diferencia de la película dirigida por Frank Marshall hace treinta años, el elenco que dirige Bayona no cuenta con tanta popularidad y para la gran mayoría este es su primera superproducción.
+
+                El coral reparto lo forman jóvenes actores argentinos y uruguayos: Enzo Vogincic, Matías Recalt, Agustín Pardella, Tomas Wolf, Esteban Kukuriczka, Francisco Romero, Rafael Federman, Felipe González Otaño, Agustín Della Corte, Valentino Alonso, Simón Hempe, Fernando Contigiani, Benjamín Segura, Luciano Chatton, Agustín Berruti, Juan Caruso, Rocco Posca, Andy Pruss y Esteban Bigliardi son los encargados de dar vida a los personajes que vivieron esa experiencia en medio de la nieve.</div>
+            </div>
+          </div>
+
+
+          <div class="accordion-item">
+            <h2 class="accordion-header fondo-negro">
+              <button class="accordion-button collapsed rounded" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                <strong>Producción y Rodaje.</strong>
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">La producción de "La Sociedad de la Nieve" implicó una meticulosa investigación, con más de 100 horas de entrevistas a los supervivientes. El director Bayona adquirió los derechos del libro al finalizar la filmación de su película anterior, "Lo Imposible." Diferenciándose de adaptaciones anteriores, la película utiliza los nombres reales de todos los pasajeros fallecidos.
+
+                El rodaje abarcó ubicaciones en Sierra Nevada (España), Montevideo (Uruguay), y regiones de Chile y Argentina en los Andes, incluyendo el lugar real del accidente. La complejidad del rodaje incluyó la escasez de nieve y la capa de aire del Sahara que cubrió las montañas, desafiando a la producción en Sierra Nevada.</div>
+            </div>
+          </div>
+
+
+
+          <div class="accordion-item">
+            <h2 class="accordion-header fondo-negro">
+              <button class="accordion-button collapsed rounded" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                <strong>Recepción y Crítica</strong>
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">"La Sociedad de la Nieve" ha recibido elogios de la crítica, con un 90% de reseñas positivas en Rotten Tomatoes y una puntuación de 71 sobre 100 en Metacritic. La película ha sido elogiada por su habilidad técnica magistral y su capacidad para transmitir un mensaje simple pero poderoso sobre la resiliencia humana.
+
+                David Rooney de The Hollywood Reporter destaca la autenticidad y el realismo escalofriante de la película, mientras que Marcelo Stiletano de La Nación la califica como "excelente," subrayando la empatía y comprensión que evoca en el espectador frente a una situación límite.
+              <br>
+              A pesar de la crítica que señala el fenómeno mediático, "La Sociedad de la Nieve" emerge como una obra cinematográfica conmovedora que rinde homenaje a la valentía y la resistencia de aquellos que enfrentaron lo inimaginable en las heladas alturas de los Andes. La película no solo cuenta una historia impactante, sino que también destaca la importancia de la resiliencia humana en medio de la adversidad.</div>
+            </div>
+          </div>
+
+
+          <div class="accordion-item">
+            <h2 class="accordion-header fondo-negro">
+              <button class="accordion-button collapsed rounded" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour" aria-expanded="false" aria-controls="flush-collapseOne">
+                <strong>Premios</strong>
+              </button>
+            </h2>
+            <div id="flush-collapsefour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">'La sociedad de la nieve' parte como una de las grandes favoritas de los Premios Goya 2024 con 13 nominaciones incluyendo Mejor Película y Mejor Director. Además luchará por los Globos de Oro y los Oscars en la categoría de Mejor Película de habla no inglesa.</div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header fondo-negro">
+              <button class="accordion-button collapsed rounded" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefive" aria-expanded="false" aria-controls="flush-collapseOne">
+                <strong>Ficha técnica</strong>
+              </button>
+            </h2>
+            <div id="flush-collapsefive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Dirección: Juan Antonio Bayona Reparto: Enzo Vogrincic, Agustín Pardella, Matías Recalt, Esteban Bigliardi, Diego Vegezzi, Fernando Contigiani García, Esteban Kukuriczka, Rafael Federman <br>País: España Año: 2023 Fecha de estreno: 09-09-2023 en el Festival de Venecia<br> Género: Aventuras. Drama <br>Guion: J.A. Bayona, Bernat Vilaplana, Jaime Marqués y Nicolás Casariego (Libro: Pablo Vierci)<br> Duración: 144 min.</div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header fondo-negro">
+              <button class="accordion-button collapsed rounded" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsesix" aria-expanded="false" aria-controls="flush-collapseOne">
+                <strong>¿Dónde se puede ver La sociedad de la nieve?</strong>
+              </button>
+            </h2>
+            <div id="flush-collapsesix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">A pesar de que esta se estrenó en salas de cine en España y algunas funciones selectas para Latinoamérica, La sociedad de la nieve estará disponible en Netflix a partir del 4 de enero de 2024, por lo que a partir de esa fecha, podrás encontrarla como parte del catálogo oficial de la plataforma.</div>
+            </div>
+          </div>
+
+
+          <div class="accordion-item">
+            <h2 class="accordion-header fondo-negro">
+              <button class="accordion-button collapsed rounded" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseseven" aria-expanded="false" aria-controls="flush-collapseOne">
+                <strong>¿Dónde se rodó la película La sociedad de la nieve?</strong>
+              </button>
+            </h2>
+            <div id="flush-collapseseven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Si bien, la historia real transcurrió en las alturas de Los Andes, el rodaje se llevó a cabo en España, específicamente, en la Laguna de las Yeguas, una región montañosa ubicada en la provincia de Granada, al sureste de la península, junto al mar Mediterráneo.</div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header fondo-negro">
+              <button class="accordion-button collapsed rounded" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseeight" aria-expanded="false" aria-controls="flush-collapseOne">
+                <strong>¿Cuál es la historia real detrás de La sociedad de la nieve?</strong>
+              </button>
+            </h2>
+            <div id="flush-collapseeight" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Fue el 12 de octubre de 1972 cuando un accidente aéreo conmocionó al mundo entero. En un viaje con destino a Chile para un encuentro deportivo, la joven tripulación compuesta por el equipo de rugby, Old Christians, en el vuelo 571 a cargo de la fuerza aérea de Uruguay, sufrió un percance que cambiaría el destino de los pasajeros para siempre. Al impactar con un glaciar y quedar varados en los Andes, con un gran número de fatalidades a bordo, el reducido grupo de supervivientes de los 45 que se encontraban en la aeronave, tuvieron que enfrentarse a 72 días luchando por su vida antes de su rescate.
+
+                    Sin forma de comunicación y falta de recursos básicos, las medidas extremas a las que tuvieron que someterse fue un tema que inspiró el libro homónimo firmado por Pablo Vierci en 2008. A su vez, la historia fue adaptada a la pantalla bajo el lente del guionista y director, Gonzalo Arijón, quien reunió crudos testimoniales de la mayoría de los involucrados, fue así como dio a conocer la desgarradora historia bajo su peculiar visión. Desde el canibalismo hasta caminar por senderos mortales sin retorno, los miembros que dejaron todo atrás para salvar al resto de sus compañeros pasaron a la historia como héroes, y este largometraje explora a detalle lo sucedido en el grupo de los 16 miembros que lograron retornar a casa y rendirle homenaje a las 29 lamentables pérdidas cobradas.
+                    
+                    A más de 5 décadas del suceso que pasó a ser conocido como El Milagro de los Andes, Juan Bayona vuelve a tomar un relato histórico [tal como lo hizo con Lo imposible] para plasmarlo en una producción que desde su estreno ya figura dentro de la lista de apuestas para las nominaciones de numerosos premios, incluyendo al Globo de Oro y el codiciado Óscar en representación de España.
+                    
+                  </div>
+            </div>
+          </div>
+
+
+          <div class="accordion-item">
+            <h2 class="accordion-header fondo-negro">
+              <button class="accordion-button collapsed rounded" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsenine" aria-expanded="false" aria-controls="flush-collapseOne">
+                <strong>Sobre nosotros</strong>
+              </button>
+            </h2>
+            <div id="flush-collapsenine" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body"><p>
+                Somos unos apasionados por el cine y queremos compartir
+                contigo las mejores experiencias cinematográficas, acércate a
+                descubrir nuestro nuevo cine recién inaugurado. <br />
+                Además, hoy en nuestro estreno de
+                <strong class="azul">La Sociedad de la Nieve</strong> tenemos
+                algo para ti...
+              </p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!--FOOTER-->
+<section class="hero pb-5 ps-3 pe-3 pt-5">
+  <div class="container3">
+      <div class="row ">
+        <h2>Más Detalles</h2>
+        <div class="col">
+          <p class="gris">Ver sin conexión</p>
+          <p>Descárgate contenidos para verlos donde quieras</p>
+        </div>
+        <div class="col">
+          <p class="gris">Géneros</p>
+          <p>Españolas. Películas dramáticas.<br>Películas basadas en libros.<br>Películas basadas en hechos reales.</p>
+        </div>
+        <div class="col">
+          <p class="gris">Perteneces a...</p>
+          <p>Motivadora, Sombría</p>
+        </div>
+        <div class="col">
+          <p class="gris">Audio y subtítulos</p>
+          <p>German - Audio description, German.<br>
+          English - Audio description, English.<br>
+          Spanish - Audio description, Spanish.<br>
+          French - Audio description, French.<br>
+          Italian - Audio description, Italian.
+          </p>
+        </div>
+        <div class="col">
+          <p class="gris">Subtítulos</p>
+          <p>Arabic, English, Spanish, Romanian, Ukrainian.</p>
+        </div>
+      <hr>
+        <div class="row">
+          <div class="col">
+            <p class="gris">Acerca de la Sociedad de la Nieve</p>
+          <p>Asómate detrás de las cámaras en<br>
+          <a class="enlace" href="https://www.netflix.com/tudum" target="_blank">Tudum.com</a></p>
+          </div>
+        </div>
+      <hr>
+        <div class="col">
+          <p class="gris">Reparto</p>
+          <p>Enzo Vogrincic<br>
+            Fenando Contigiani García</p>
+        </div>
+        <div class="col">
+          <br>
+          <p>
+            Agustín Pardella<br>
+            Esteban Bigliardi</p>
+        </div>
+        <div class="col">
+          <br>
+          <p>
+            Matías Recalt<br>
+            Francisco Romero</p>
+        </div>
+        <div class="col">
+          <br>
+          <p>
+            Esteban Bigliardi<br>
+            Rafael Federman</p>
+        </div>
+        <div class="col">
+          <br>
+          <p>
+            Diego Vegezzi<br>
+            Valentino Alonso</p>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+<!-- Pie de página con logos de redes sociales -->
+<redes class="mt-3 text-center">
+  <h3 class="mt-3 azul">Síguenos en redes sociales:</h3>
+  <div>
+    <!-- Logos de redes sociales -->
+    <a href="#" target="_blank">
+      <img src="img/LogoFaceBlanco.png" alt="Facebook" width="50" height="50" />
+    </a>
+    <a href="#" target="_blank">
+      <img src="img/logoTiktokBlanco.webp" alt="TikTok" width="50" height="50" />
+    </a>
+    <a href="#" target="_blank">
+      <img src="img/LogoInstaBlanco.png" alt="Instagram" width="60" height="50" />
+    </a>
+  </div>
+</redes>
+
+<br>
+
+<!--COPYRIGHT-->
+<footer 
+class="copy">&copy; Copyright 2024 
+<br>
+<br>
+<p class="">Todo este material utilizado es bajado de internet, no es de mi propiedad, solo lo utilizo para practicar y aprender para la realización de mi proyecto de examen final de Desarrollo Web.</p>
+</footer>
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
